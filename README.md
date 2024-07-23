@@ -1,11 +1,9 @@
 
 # Test project
 
-Please fallow this steps for project setup.
+Please follow these steps for project setup.
 
-
-## Add this properties from Firebase project
-
+## Add these properties from the Firebase project.
 
 apiKey
 authDomain
@@ -16,8 +14,6 @@ messagingSenderId
 appId
 measurementId:
 
-
- 
 
 
 ## Authors
