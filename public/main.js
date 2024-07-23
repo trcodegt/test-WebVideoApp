@@ -4,14 +4,14 @@ import { getAuth, signInAnonymously, onAuthStateChanged } from 'firebase/auth';
 import { getStorage, ref as storageRef, uploadBytes, getDownloadURL } from 'firebase/storage';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCb4vzJAm4fpA-fIF1S17ywYMKX3i9Yvgw",
-  authDomain: "testfocusvideoapp.firebaseapp.com",
-  databaseURL: "https://testfocusvideoapp-default-rtdb.firebaseio.com",
-  projectId: "testfocusvideoapp",
-  storageBucket: "testfocusvideoapp.appspot.com",
-  messagingSenderId: "39660109111",
-  appId: "1:39660109111:web:526283adab5f3c0adbaeb2",
-  measurementId: "G-M251NQY9Y9"
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: ""
 };
 
 const app = initializeApp(firebaseConfig);
