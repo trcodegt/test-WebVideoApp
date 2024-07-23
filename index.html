@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connect Us</title>
+  <link rel="stylesheet" href="./public/styles.css">
+</head>
+<body>
+  <div id="login-screen" class="screen">
+    <h1>Connect Us</h1>
+    <input type="text" id="nickname" placeholder="Enter your nickname">
+    <input type="file" id="avatar" accept="image/*">
+    <button id="loginButton">Login</button>
+  </div>
+
+  <div id="user-list-screen" class="screen" style="display: none;">
+    <button id="logoutButton">Logout</button>
+    <h2>Logged in Users</h2>
+    <div id="userList"></div>
+  </div>
+
+  <div id="chat-call-screen" class="screen" style="display: none;">
+    <div id="userDetails"></div>
+    <div id="chat">
+      <div id="chatMessages"></div>
+      <input type="text" id="chatInput" placeholder="Type a message">
+      <button id="sendChatButton">Send</button>
+    </div>
+    <div id="callControls">
+      <button id="audioCallButton">Audio Call</button>
+      <button id="videoCallButton">Video Call</button>
+    </div>
+    <div id="videoCallScreen" style="display: none;">
+      <video id="localVideo" autoplay playsinline></video>
+      <video id="remoteVideo" autoplay playsinline></video>
+      <button id="endCallButton">End Call</button>
+    </div>
+  </div>
+
+  <script type="module" src="./public/main.js"></script>
+</body>
+</html>
